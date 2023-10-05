@@ -26,6 +26,8 @@ Fuente de la idea: https://docs.opencv.org/4.x/df/d9d/tutorial_py_colorspaces.ht
 
 **TAREA 5: Asumiendo que quieren mostrar a personas que no forman parte del curso de VC el comportamiento de una o varias funcioens de las vistas hasta este momento aplicadas sobre la entrada de la webcam. ¿Cuál(es) escogerían?**
 
+IMPORTANTE: Es necesario installar pyautogui en el enviaroment de la practica para que funcione.
+
  En esta tarea hemos creado una forma nueva y divertida (quizás) de jugar al juego del dinosaurio del Chrome cuando no tienes conexión a internet. 
   Para ello hemos creado un subframe en el que usando la mano podremos controlar si el dinosaurio salta o no. Esto lo hemos conseguido aplicando una máscara para reconocer la mano (utilizando un fondo blanco para que la detección sea más eficaz), aplicando correción de ruido para poder encontrar los bordes y luego utilizando estos para calcular el área que crean y así poder determinar si la mano está abierta o cerrada. Para convertir los inputs de la mano en inputs en el propio ordenador hemos usado la librería pyautogui que hace muy sencillo este proceso.
   Recomendación: Abrir el juego en el navegador, ejecutar el programa y cambiar a la ventana del juego para que los inputs los detecte el navegador.
